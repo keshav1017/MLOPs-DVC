@@ -10,3 +10,7 @@
 8. Again we do "dvc add data/" (creates data.dvc) then "add .gitignore data.dvc"
 9. Now do a git add-commit-push to mark this stage as first version data.
 10. Now make changes to mycode.py to append a new row in data, check changes via "dvc status"
+11. Again - "dvc commit" and then "dvc push"
+12. Then git add-commit-push (we are adding v2 of our data)
+13. Check dvc/status everything should be up to date
+14. Now repeat step 10-12 for v3 of data.
